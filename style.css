@@ -66,6 +66,7 @@ main {
 #img-one,
 #img-two {
     width: 600px;
+    transition-duration: .3s;
 }
 
 .image-button {
