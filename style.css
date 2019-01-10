@@ -75,6 +75,10 @@ main {
     width: 80px;
 }
 
+.image-button:hover {
+    transform: scale(1.2);
+}
+
 .image-active {
     left: 320px;
     width: 600px;
