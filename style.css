@@ -20,7 +20,7 @@ body {
 main {
     position: absolute;
     width: 100%;
-    min-height: 100vh;
+    height: 1200px;
     color: white;
     background-color: var(--bg-color);
 }
@@ -33,27 +33,20 @@ main {
     }
 }
 
-/* positioning */
-
-.center {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-/* content */
+/* header */
 
 .headline {
     width: 100%;
     text-align: center;
-    font-size: 32px;
-    letter-spacing: 3px;
+    font-size: 42px;
+    letter-spacing: 5px;
     margin: 40px 0;
 }
 
 .header {
     position: relative;
     width: 90%;
+    margin: 0 5%;
 }
 
 .header__list {
@@ -62,32 +55,93 @@ main {
     width: 20%;
 }
 
-.header__img {
+#image-one,
+#image-two {
     position: absolute;
-    right: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    transition-duration: .3s;
+}
+
+#img-one,
+#img-two {
     width: 600px;
+}
+
+.image-button {
+    cursor: pointer;
+    left: 220px;
+    height: 60px;
+    width: 80px;
+}
+
+.image-active {
+    left: 320px;
+    width: 600px;
+    height: 450px;
+}
+
+.img--small {
+    width: 80px !important;
 }
 
 .header__soundcloud-list {
     position: absolute;
-    top: 120px;
+    top: 110px;
 }
 
 .header__track {
     display: block;
-    height: 100px;
-    margin: 10px 0;
+    height: 106px;
+    margin-bottom: 10px;
 }
 
 .list-item {
-    margin: 10px 0;
+    margin-bottom: 10px;
 }
 
 .list-item__key {
-    width: 150px;
+    font-size: 16px;
+    padding-right: 10px;
     color: var(--light-color);
 }
 
 .list-item__value {
-    width: 150px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+/* content */
+
+.content {
+    position: relative;
+    top: 480px;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.description {
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+
+/* video */
+
+.video {
+    position: absolute;
+    left: 5%;
+    top: 800px;
+    width: 90%;
+}
+
+.video-container {
+    width: 600px;
+    height: 340px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#video {
+    width: 600px;
 }
