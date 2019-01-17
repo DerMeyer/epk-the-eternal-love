@@ -72,7 +72,7 @@ main {
     text-align: center;
     font-size: 42px;
     letter-spacing: 5px;
-    margin: 40px 0;
+    margin: 45px 0;
 }
 
 .header {
@@ -105,11 +105,13 @@ main {
 .header__soundcloud-list {
     position: absolute;
     top: 110px;
+    transform: scale(.7) translate(-21%, 20%);
 }
 
 .header__track {
     display: block;
     height: 106px;
+    width: 430px;
     margin-bottom: 10px;
 }
 
