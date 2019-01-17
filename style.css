@@ -172,7 +172,6 @@ main {
 /* video */
 
 .video {
-    position: relative;
     width: 600px;
     margin: 0 5%;
 }
@@ -193,4 +192,11 @@ main {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 600px;
+}
+
+.emotional-text {
+    position: absolute;
+    left: 68%;
+    bottom: 100px;
+    width: 27%;
 }
