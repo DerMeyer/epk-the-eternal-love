@@ -20,7 +20,9 @@ body {
 main {
     position: absolute;
     width: 100%;
-    padding-bottom: 40px;
+    padding: 5px 0 40px 0;
+    border-radius: 5px;
+    margin: 15px 0;
     color: white;
     background-color: var(--bg-color);
 }
@@ -180,10 +182,16 @@ main {
     width: 598px;
     height: 336px;
     border-radius: 5px;
+    margin: 10px 0;
     overflow: hidden;
 }
 
-#video {
+.video-container--right {
+    right: 0;
+}
+
+#song-video,
+#vlog-video {
     position: absolute;
     left: 50%;
     top: 50%;
