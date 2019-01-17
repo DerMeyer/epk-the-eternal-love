@@ -173,7 +173,7 @@ main {
 
 .video {
     position: relative;
-    width: 90%;
+    width: 600px;
     margin: 0 5%;
 }
 
@@ -184,10 +184,6 @@ main {
     border-radius: 5px;
     margin: 10px 0;
     overflow: hidden;
-}
-
-.video-container--right {
-    right: 0;
 }
 
 #song-video,
