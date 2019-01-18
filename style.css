@@ -9,6 +9,7 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 body {
@@ -52,6 +53,7 @@ main {
     width: 38px;
     height: 38px;
     margin: 0 3px;
+    outline: none;
     filter: brightness(95%);
 }
 
@@ -75,6 +77,12 @@ main {
     font-size: 42px;
     letter-spacing: 5px;
     margin: 45px 0;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--light-color);
 }
 
 .header {
@@ -172,6 +180,7 @@ main {
 /* video */
 
 .video {
+    display: inline-block;
     width: 600px;
     margin: 0 5%;
 }
@@ -181,7 +190,7 @@ main {
     width: 598px;
     height: 336px;
     border-radius: 5px;
-    margin: 10px 0;
+    margin-top: 20px;
     overflow: hidden;
 }
 
@@ -195,8 +204,6 @@ main {
 }
 
 .emotional-text {
-    position: absolute;
-    left: 68%;
-    bottom: 100px;
-    width: 27%;
+    display: inline-block;
+    width: 250px;
 }
