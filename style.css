@@ -1,5 +1,5 @@
 :root {
-    --bg-color: rgb(29, 29, 29);
+    --bg-color: rgb(27, 27, 27);
     --light-color: rgb(204, 204, 204);
 }
 
@@ -20,7 +20,7 @@ body {
 
 main {
     position: absolute;
-    width: 100%;
+    width: 1024px;
     padding: 5px 0 40px 0;
     border-radius: 5px;
     margin: 15px 0;
@@ -32,7 +32,6 @@ main {
     main {
         left: 50%;
         transform: translateX(-50%);
-        width: 1024px;
     }
 }
 
@@ -74,7 +73,7 @@ main {
     position: relative;
     width: 100%;
     text-align: center;
-    font-size: 42px;
+    font-size: 46px;
     letter-spacing: 5px;
     margin: 45px 0;
 }
@@ -143,9 +142,11 @@ main {
 .image-button {
     cursor: pointer;
     position: absolute !important;
-    left: 220px;
+    left: 320px;
     height: 60px;
     width: 80px;
+    border: 1px solid var(--light-color);
+    z-index: 50;
 }
 
 .image-button:hover {
