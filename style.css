@@ -206,4 +206,5 @@ main {
 .emotional-text {
     display: inline-block;
     width: 250px;
+    transform: translateY(-20px);
 }
