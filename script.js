@@ -1,5 +1,6 @@
 (function() {
 
+    // image toggle
     var imageOne = document.getElementById('image-one');
     var imageTwo = document.getElementById('image-two');
     var imgOne = document.getElementById('img-one');
@@ -25,5 +26,17 @@
 
     var activeImage = 'two';
     imageTwo.addEventListener('click', toggleImages);
+
+    // locale toggle
+    var localeButton = document.getElementById('locale-button');
+    var locales = document.getElementsByClassName('locales');
+
+    function toggleLocales() {
+        for (var i = 0; i < locales.length; i++) {
+            locales[i].classList.toggle('hidden');
+        }
+    }
+
+    localeButton.addEventListener('click', toggleLocales);
 
 })();
